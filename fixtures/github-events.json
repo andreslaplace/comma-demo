@@ -1,0 +1,41 @@
+{
+  "notice": "Synthetic fixture only; not a GitHub API response.",
+  "pull_requests": [
+    {
+      "number": 12,
+      "title": "Adjust confirmation wording for checkout",
+      "state": "open",
+      "draft": false,
+      "author": "demo-ana",
+      "reviewers": [],
+      "changed_files": ["src/components/confirmation-modal.ts"]
+    },
+    {
+      "number": 13,
+      "title": "Add destructive confirmation variant",
+      "state": "open",
+      "draft": true,
+      "author": "demo-luis",
+      "reviewers": [],
+      "changed_files": ["src/components/confirmation-modal.ts"]
+    },
+    {
+      "number": 7,
+      "title": "Create checkout confirmation flow",
+      "state": "merged",
+      "draft": false,
+      "author": "demo-ana",
+      "reviewers": ["demo-luis"],
+      "changed_files": ["src/components/checkout-confirmation.ts"]
+    }
+  ],
+  "issues": [
+    {
+      "number": 4,
+      "title": "Review confirmation dialog copy",
+      "state": "open",
+      "assignee": "demo-marta",
+      "labels": ["design-system", "checkout"]
+    }
+  ]
+}
